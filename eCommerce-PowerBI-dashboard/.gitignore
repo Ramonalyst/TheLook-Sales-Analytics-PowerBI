@@ -1,0 +1,15 @@
+# Power BI temp files
+*.pbix~
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Archives
+*.zip
+*.rar

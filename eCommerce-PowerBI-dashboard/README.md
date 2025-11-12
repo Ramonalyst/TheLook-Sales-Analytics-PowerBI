@@ -77,26 +77,25 @@ Der Fokus liegt auf einer **eleganten, datenzentrierten Darstellung**, die analy
 
 ## 🧩 Umsetzung & technische Details
 
-| Kategorie         | Beschreibung |
-|------------------|--------------|
-| Tool             | Power BI Desktop |
-| Datenquelle      | Kaggle: Looker E-Commerce BigQuery Dataset |
-| Verbindungstyp   | Ursprünglich BigQuery (jetzt statisch eingebettet) |
-| Modellierung     | Sternschema: `orders`, `order_items`, `products`, `users`, `distribution_centers` |
-| Measures | DAX-basiert, u. a.:  
-- `Total Sales (USD)` – Umsatz in USD  
-- `Sales Growth %` – Wachstum gegenüber Vorjahr  
-- `Total Quantity` – Anzahl verkaufter Produkte  
-- `Total Cost (USD)` – Einkaufskosten  
-- `Return Rate %` – Rückgabequote (Returned Qty / Sold Qty)  
-- `Returned Products Rank` – Ranking der meist zurückgegebenen Produkte  
-- `Ranking Category` – Dynamisches RANKX basierend auf Total Sales  
-- `Ranking Development Label` – Kombination aus RANKX & Unicode-Icons (▲▼ = Platzveränderung)  
-- `TopN Color` – Dynamische Farbzuweisung basierend auf TopN-Auswahl  
-- `High/Medium/Low Spending Classification` – Segmentierung via SWITCH / AVERAGE / USERELATIONSHIP  
-|
-| Formatierung     | Einheitliches blaues Farbschema, KPI-Sparklines, Tooltips |
-| Slicer           | Zeitraum, Region, Kategorie, Altersgruppe, dynamisches TopN |
+| Kategorie | Beschreibung |
+|------------|--------------|
+| **Tool** | Power BI Desktop |
+| **Datenquelle** | Kaggle: Looker E-Commerce BigQuery Dataset |
+| **Verbindungstyp** | Ursprünglich BigQuery (jetzt statisch eingebettet) |
+| **Modellierung** | Sternschema: `orders`, `order_items`, `products`, `users`, `distribution_centers` |
+| **Measures** | DAX-basiert, u.a.: |
+| • `Total Sales (USD)` | Umsatz in USD |
+| • `Sales Growth %` | Wachstum gegenüber Vorjahr |
+| • `Total Quantity` | Anzahl verkaufter Produkte |
+| • `Total Cost (USD)` | Einkaufskosten |
+| • `Return Rate %` | Rückgabequote (Returned Qty / Sold Qty) |
+| • `Returned Products Rank` | Ranking der meist zurückgegebenen Produkte |
+| • `Ranking Category` | Dynamisches RANKX basierend auf Total Sales |
+| • `Ranking Development Label` | Kombination aus RANKX & Unicode-Icons (▲▼ = Platzveränderung) |
+| • `TopN Color` | Dynamische Farbzuteilung basierend auf TopN-Auswahl |
+| • `High/Medium/Low Spending Classification` | Segmentierung via SWITCH / AVERAGE / USERELATIONSHIP |
+| **Formatierung** | Einheitliches blaues Farbschema, KPI-Sparklines, Tooltips |
+| **Slicer** | Zeitraum, Region, Kategorie, Altersgruppe, dynamisches TopN |
 
 ---
 

@@ -1,0 +1,248 @@
+{
+  "usermeta": {
+    "information": {
+      "uuid": "3996f677-a50a-46cf-917e-2e3d55b8f8b8",
+      "generated": "2025-11-26T17:13:05.593Z",
+      "previewImageBase64PNG": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAAASCAYAAAC5ICcsAAAKOUlEQVR4AexaC1STRxa+kycRQgJFJRAgINVWW9oeKi2rVlrdWttq61Jau91WbCWExtDah+/HryIi9mh3KaJxa0VbuytaXxXqG+uDrYoe8WiV5ZGEP+ERngmBEEhmZ6JuPceqRFF7WjhzM/PP3Ln/nTvff+fOPXCg96/XAnfBAr8pYH3yydveqVOmRMdrxiclvz/5NY1K9cRdWHOvyHtggfsOLDmD/cMW44dD0/DwPMmGkdtDVw7IDyifkidzvbBLnhMatgQ/G74ER0Wm4773wB69r+ghC9wXYAUxuI98EX40ZDEej7gwnMsDH+gCUxcXfnL5+OyKFgenDfYTZPI64VAnhjKXE7ikjiHgGxeajgdHKzHfw/VzISFBALErRDBsuhgGTRcr4hKlEaNnSCBa2cc9BsD1UGYv+00swLnJWI8PUUCFLMJD+TyYwOeAyOmE41Xz0M6KWeikgUEVxtmogf0ItX8cnnJudsSEmrKFyGKai6r089EZ/Ry0m8CpGLlA2hAKr4UuxdGRC7D8BkpyIHaaCOI+lPrGvucvHjVLKqkO8AZhiRDq6wF8mp2fThqpiIjwA7AHccDs3SdwhMZfHjvNH57S+AIwvBvI7e3upgU43eS7YzbqaQQ8eIXDBSfqgq2Vc9EJE4PILndfdNUMZNLPRcfbhbATdYLLwYfY8DQc03859naDgXgfyfCZfuIYtR9Iu/hglTosRSGt1gNLG1qO5jRB4fpmuLTOCsXaNplE0pGhHN0G55lW2l9zJMvMytlWaH3AFRxjllBQuj1c99Xr5bzGAncdWAoGS0OX4D9znNCPw4N8/Rx0Wscg+zU6eNys/RTZqBcT1MJOh83I5dXX/S1Q88YwEMcKWmTlNuuJ7AYoyLJAMdNGAOfo9gvy8hwUaEY6H6R26uF8qRcb9q642zJ+q4z3WK+7CqyIdDwQ8+AlDoIq3TxUWDETtfTA+jgQx3hBXKK09sJUH2PRZz+3otLNItlDfcNGJ46KiNoc1gPvAChk7NSTWcZILODrjYLiPg6AIdk+RHZvLEaMcKtyV4AVx2Be6CI8zIUh3NkFBbrZ6OKtFLnlOAXTWI1v/+c/CQBo9gIYabceIJ6p8PPmlowRTZWz0RZeFxxxAoSELsYvy5fiyFvK7A4Dw5AVZFlMheJm6LjIobHY5TgM/+4BplYnDZyakjJ2aoryr56mfnocWAoGB+oF8CLZM7tuDtrDMqiRtD0uOp2OC1fARDaTpBp0XuAUOmv3ftYABExQOPm647ScQXX6eegg4kAx1wEhYWk4XrEEP050knqswHUTCMDKsiw1R/7RSOOwwBGp/kCADhqN8DrW30lHdvba0i9ycgq+yNFuylq9+owny+pRYNEAHXgwEjugxDAfFXuiCADxAOOYPjB+uvjHc0bvvaUdEhA1CKCZ11lzJKuRHkuw9zMbkUmcEvm9SSFxXLV+ATpEJB7EABzMg2dJPuylsEX4CXkaDk5+/8M3a/YUjP06d93rNxFzgyHkpHGYW6e6ji75KZ63L43Dot72BmAEdJJSqZSQr/zVqSnJkz390un87pBGqRyQmpz8gkaVlHRH70jA3L4M9hnA4H6KpVhBTpoh9EJEcovP0XRQ9DKbauvWrbLu6HQtD+fah9tuM5hDFBoGGIKFfMjXMUh3a1kM72pKgN7kgqKT/aDdxAdjs3Olq/7S9s+n6dwBeNHKdiLrlmAiPNcVwyzUREB2mtwkt/ERnKA3UhLvPWS1jZWO++7gpAfP+yuIRxvjNuIiPEKRhp8m64gOX4QfI/WQ8MV4EDHuAOLxFMHLsJyAU0aStf2DGBwgZ7BEMW6NwOv5FV3wdAJ4D5ooDnoltP8DCbnB3zTFijY3xxXt7hyZv8Hysi5g+g5xwLs7xH3jDvlQkidsFikSD3lFr8H8/5MS82OnYRENI7pD54LW6Etkq/efEmm/Lhicc4Ho1GfQMixWrMTSwHTcl+oasQCHUv3J+h4Oz8CPUcCEpOMR9DLlzgmm4YSwR+ENbwGMdiJ4guQL5SSvKCQev5k8X+Lz4fDHDxVtu86w3ejgdIPnpizEwP5hfBhLPIPDMAftuzQDWX91AkO+Znq7IscH/cLF9ErvbROAtc3RctTLairW1sN+bQtNBQCNa35VyO13ls1G5so5qIToeGBT7pgcubk89Wjkq2t4CE5TI3JdUEUStPUIQRsCcCE+CLp44EvA2M/FAznfAZFkjYMJwqMEXHiSy4WnXSS528GDOH//2GcCHnsxlv/U5KHej0z8k9+DrzznpRj7vE/gI9E+8ujxQk5MvDAwJp4/dODr/JiBCa4Bw950yCLfqq3UT6qtMCS6yc+QqBeyb5W11U4qs7GJZW0mUlcnltkJ2aoTy+2179Cxcrv5nXLbZdK3105uktSp21nzRI6j7i+2xupxDpNpDM/CPtPZZnrSYdcPcTZXRnQ06vq11bNeHY1lnZ3Gs412/fEKW+n3p5uKtx3UH1y4U7d15iHdzpn/MWzMPKvftLC0IndGNbsr1VqRNxNKLvxXdDtWvyNgKYjr5HLgBbIppVXz0clrFOC4s9n0eBie4kfySg/47mnxAVFfDpA4yVIksbhTAleBBCR+uWbyvWgS8Bz+VvtkPQUcOxcZdQzSsbNQGYnRfq6Yj87pZ6EzVbPQSf1sVGSYi47SW61hDjpAaB9p/0D48g3z0Pc0wUuet1OvSHi/MywQ5rHp/psMS/02nkuLyjdmynKNGbL1xnTZetPy4HWmzOCvTBmkXhryJZuh+Ce7LGztFfrSlBGyjs3s/xW7/MsNbObajexy7QbWS7uebWFyq8o137KVmk1VZyd9U6VTf00pTLR6YyDkfGE8serf7PGcLewF7XbTybW72cN5+aZja/exP/690HRu1fGa89mnao+tKDEVrbpYczq3oq44t7rh/K4mq+GHdrCaXCC2OoHXhkFodoEXeRZWu4Bnw+BldmVsOVMXHx9f7emeeAQsGjuoVaoJalXSRHIkRJGj73GeCPZXzFtYCXGMFyEftzcapfYD85A+0CHjgKye5pWaLUUrG2H/spbLcdK9B5KnhrkP/C7yTkKIEOMAuEIMsZVW2wl5ee1uKijoILWDUiHD2CmBOzXC2GEX00barVD0UTup7UDDCBqXUqLtq0QSxO6T4WpduKoVfsqyQAmJYWlfyUYbHFtndRN9Jop5WjwCllarbclevXrbDumKGoetPsRc8W1R+7+SL2eqRQ0CMNeBZYyEZLppGoBphkuZVmoAohQ5Qchvb/nDWMAjYF21iqu9mm88nn3YVlbaYipe02ikmeoCgvjzBPkM/dKucvbWf1QLeASsD1UqhTopacKrnZ+bNYOqQ93uFqjr7jnzTVMqH01VJU1Qq1UT6NHbc5J/kaRWKp9KVaten/bee5G/9PZcy/1/ZUrls+rk5FEfJCUNZRhyA+458W5JKSkpftRG7yuVwz9ISYlyd/bwD93vqUlJ8VNVU57TJCcP9kT8/wAAAP//VxLrbwAAAAZJREFUAwDDSb/9DYCgHwAAAABJRU5ErkJggg==",
+      "name": "Sales_Growth_vs_Target_with_Deviation_Lines",
+      "description": "Vergleich zwischen Sales Growth % und Sales Growth Target % mit Abweichungslinien und Markierung der größten Differenzen.",
+      "author": "Ramona"
+    },
+    "deneb": {
+      "build": "1.8.2.20251007#0000000",
+      "metaVersion": 1,
+      "provider": "vegaLite",
+      "providerVersion": "6.4.1"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": false,
+      "selectionMode": "simple",
+      "highlight": false,
+      "dataPointLimit": 50
+    },
+    "config": "{}",
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Year",
+        "description": "Date[Year]",
+        "kind": "column",
+        "type": "numeric"
+      },
+      {
+        "key": "__1__",
+        "name": "Sales Growth %",
+        "description": "DAX",
+        "kind": "measure",
+        "type": "numeric"
+      },
+      {
+        "key": "__2__",
+        "name": "Sales Growth Target %",
+        "description": "DAX",
+        "kind": "measure",
+        "type": "numeric"
+      }
+    ]
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Sales Growth % vs Target % with deviation lines, largest positive and negative deviation markers, and data labels",
+  "data": {
+    "name": "dataset"
+  },
+  "transform": [
+    {
+      "filter": "datum['__0__'] != null && datum['__0__'] != 0"
+    },
+    {
+      "calculate": "datum['__1__'] - datum['__2__']",
+      "as": "Deviation"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "__0__",
+      "type": "ordinal",
+      "axis": {
+        "labels": true,
+        "labelAngle": 0,
+        "title": null,
+        "grid": false,
+        "ticks": false,
+        "domain": false,
+        "labelFont": "Segoe UI",
+        "labelFontSize": 11,
+        "labelColor": "#6C6966"
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#B0B0B0",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "y": {
+          "field": "__1__",
+          "type": "quantitative"
+        },
+        "y2": {
+          "field": "__2__"
+        },
+        "x": {
+          "field": "__0__",
+          "type": "ordinal"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "#1F84FF",
+        "strokeWidth": 3,
+        "interpolate": "monotone"
+      },
+      "encoding": {
+        "y": {
+          "field": "__1__",
+          "type": "quantitative",
+          "axis": {
+            "labels": false,
+            "title": null,
+            "grid": false,
+            "domain": false,
+            "ticks": false
+          },
+          "scale": {
+            "domain": [
+              0,
+              2.5
+            ]
+          },
+          "format": ".0%"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "#0F3D6E",
+        "strokeDash": [
+          6,
+          3
+        ],
+        "strokeWidth": 1,
+        "interpolate": "monotone"
+      },
+      "encoding": {
+        "y": {
+          "field": "__2__",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "window": [
+            {
+              "op": "max",
+              "field": "Deviation",
+              "as": "MaxDeviation"
+            }
+          ]
+        },
+        {
+          "filter": "datum['Deviation'] === datum['MaxDeviation'] && datum['__0__'] > 2019"
+        }
+      ],
+      "mark": {
+        "type": "point",
+        "color": "green",
+        "size": 150,
+        "filled": true
+      },
+      "encoding": {
+        "x": {
+          "field": "__0__",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "__1__",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "window": [
+            {
+              "op": "min",
+              "field": "Deviation",
+              "as": "MinDeviation"
+            }
+          ]
+        },
+        {
+          "filter": "datum['Deviation'] === datum['MinDeviation'] && datum['__0__'] > 2019"
+        }
+      ],
+      "mark": {
+        "type": "point",
+        "color": "red",
+        "size": 150,
+        "filled": true
+      },
+      "encoding": {
+        "x": {
+          "field": "__0__",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "__1__",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "color": "#6C6966",
+        "font": "Segoe UI",
+        "fontSize": 12,
+        "dy": -12
+      },
+      "encoding": {
+        "x": {
+          "field": "__0__",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "__1__",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "__1__",
+          "type": "quantitative",
+          "format": ".0%"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    },
+    "axis": {
+      "grid": false,
+      "domain": false,
+      "ticks": false,
+      "labels": false
+    }
+  }
+}

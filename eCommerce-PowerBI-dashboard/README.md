@@ -10,25 +10,38 @@ Der Fokus liegt auf **Verkaufsanalyse**, **Retourenquoten**, **Produkttrends** u
 
 Die Power BI Datei (`theLook_ecommerce_dashboard.pbix`) enthält mehrere vollständig gestaltete Dashboard-Seiten zur Visualisierung von Performance-Kennzahlen und Kundensegmenten.
 
-### 1️⃣ Global Sales Performance
-- Globale KPIs: **Total Revenue**, **AVG Order Value**, **Total Items Ordered**
-- Interaktive Weltkarte (nach Region, Land und Kontinent)
-- Tooltip-Analyse mit **Top 3 Kategorien**, **Durchschnittspreisen** & **Umsatz nach Region**
+### 1️⃣ 🌍 GLOBAL SALES PERFORMANCE
+- **Total Revenue ($)**  
+  - Gesamtumsatz aller Regionen als SVG Card  
+- **Interaktive Weltkarte**  
+  - Darstellung der Umsatzverteilung nach **Region, Land und Kontinent** durch dynamische Farbintensität zur Hervorhebung umsatzstarker Märkte  
+- **Umsatzranking nach Ländern**  
+  - Automatische Hervorhebung der **Top-Länder nach Umsatzvolumen**  
+  - Fokus auf internationale Performance-Treiber (z. B. China, USA, Brasilien)  
+- **Trendanalyse über Zeit**  
+  - Kombination aus **Total Sales (USD)** und **Average Order Value (AOV)**  
+  - Erkennt Umsatztrends, saisonale Muster und Wachstumsschübe im Jahresverlauf  
+- **Tooltips mit erweiterten Insights**  
+  - Anzeigen der **Top 3 Kategorien**, **Durchschnittspreise**, und **Umsatzanteile pro Region** direkt im Tooltip
 
 ### 2️⃣ PERFORMANCE ANALYSIS
 
 #### 🔹 KPIs (oben)
 - **Sales $** – Gesamtumsatz (aggregiert über gewählten Zeitraum)  
-- **Growth %** – Jahr-über-Jahr Wachstum  
+- **Growth %** – Umsatzwachstum im Vergleich zum Vorjahr  
 - **Quantity** – Anzahl der verkauften Produkte  
 - **Profit %** – Gewinnmarge in %  
-→ Alle mit integrierten **Inline-Sparkbars** zur schnellen Trendbewertung
+→ Alle mit integrierten **Inline-Sparkbars** zur schnellen Trendbewertung der MAX und MIN Werte
+- **Interaktive Filter (Slicer)**  
+  - Auswahl nach **Jahr**, **Region**, **Kategorie** und **Kundensegment (Age Group)** 
 
 #### 📈 Analysen im Dashboard
 
-##### 1️⃣ Sales Growth % by Year
-- Liniendiagramm mit Prozentwachstum nach Jahr
-- Dynamische Farbgestaltung und Tooltips
+##### 1️⃣ Sales Growth % by Year (Deneb Visual)
+Custom Visual erstellt mit **Deneb (Vega-Lite)**.  
+Die JSON-Datei kann direkt in Power BI importiert werden, um das Visual nachzubauen:  
+
+➡️ [Download deneb_sales_growth_visual.json](assets/deneb_sales_growth_visual.json)
 
 ##### 2️⃣ Product Category Ranking
 - Rangfolge der Produktkategorien nach **Total Revenue (USD)**
@@ -77,25 +90,26 @@ Der Fokus liegt auf einer **eleganten, datenzentrierten Darstellung**, die analy
 
 ## 🧩 Umsetzung & technische Details
 
-| Kategorie | Beschreibung |
-|------------|--------------|
-| **Tool** | Power BI Desktop |
-| **Datenquelle** | Kaggle: Looker E-Commerce BigQuery Dataset |
-| **Verbindungstyp** | Ursprünglich BigQuery (jetzt statisch eingebettet) |
-| **Modellierung** | Sternschema: `orders`, `order_items`, `products`, `users`, `distribution_centers` |
-| **Measures** | DAX-basiert, u.a.: |
-| • `Total Sales (USD)` | Umsatz in USD |
-| • `Sales Growth %` | Wachstum gegenüber Vorjahr |
-| • `Total Quantity` | Anzahl verkaufter Produkte |
-| • `Total Cost (USD)` | Einkaufskosten |
-| • `Return Rate %` | Rückgabequote (Returned Qty / Sold Qty) |
-| • `Returned Products Rank` | Ranking der meist zurückgegebenen Produkte |
-| • `Ranking Category` | Dynamisches RANKX basierend auf Total Sales |
-| • `Ranking Development Label` | Kombination aus RANKX & Unicode-Icons (▲▼ = Platzveränderung) |
-| • `TopN Color` | Dynamische Farbzuteilung basierend auf TopN-Auswahl |
-| • `High/Medium/Low Spending Classification` | Segmentierung via SWITCH / AVERAGE / USERELATIONSHIP |
-| **Formatierung** | Einheitliches blaues Farbschema, KPI-Sparklines, Tooltips |
-| **Slicer** | Zeitraum, Region, Kategorie, Altersgruppe, dynamisches TopN |
+| Kategorie         | Beschreibung |
+|------------------|--------------|
+| Tool             | Power BI Desktop |
+| Datenquelle      | Kaggle: Looker E-Commerce BigQuery Dataset |
+| Verbindungstyp   | Ursprünglich BigQuery (jetzt statisch eingebettet) |
+| Modellierung     | Sternschema: `orders`, `order_items`, `products`, `users`, `distribution_centers` |
+| Measures | DAX-basiert, u. a.:  
+- `Total Sales (USD)` – Umsatz in USD  
+- `Sales Growth %` – Wachstum gegenüber Vorjahr  
+- `Total Quantity` – Anzahl verkaufter Produkte  
+- `Total Cost (USD)` – Einkaufskosten  
+- `Return Rate %` – Rückgabequote (Returned Qty / Sold Qty)  
+- `Returned Products Rank` – Ranking der meist zurückgegebenen Produkte  
+- `Ranking Category` – Dynamisches RANKX basierend auf Total Sales  
+- `Ranking Development Label` – Kombination aus RANKX & Unicode-Icons (▲▼ = Platzveränderung)  
+- `TopN Color` – Dynamische Farbzuweisung basierend auf TopN-Auswahl  
+- `High/Medium/Low Spending Classification` – Segmentierung via SWITCH / AVERAGE / USERELATIONSHIP  
+|
+| Formatierung     | Einheitliches blaues Farbschema, KPI-Sparklines, Tooltips |
+| Slicer           | Zeitraum, Region, Kategorie, Altersgruppe, dynamisches TopN |
 
 ---
 
@@ -104,7 +118,7 @@ Der Fokus liegt auf einer **eleganten, datenzentrierten Darstellung**, die analy
 | Datei / Ordner | Beschreibung |
 |----------------|--------------|
 | `thelook_ecommerce_dashboard.pbix` | Fertiges Power BI Dashboard |
-| `assets/dashboard-overview.png` | Screenshot der globalen Übersicht |
+| `assets/dashboard global sales.png` | Screenshot der globalen Übersicht |
 | `assets/deepdive-sales.png` | Screenshot der Performance Analyse |
 | `assets/topn-products.png` | Screenshot der TopN Produktanalyse |
 | `data/` | Platzhalter für CSV-Beispieldaten |
@@ -114,7 +128,7 @@ Der Fokus liegt auf einer **eleganten, datenzentrierten Darstellung**, die analy
 ## 🖼️ Screenshots
 
 ### 🌍 Global Sales Performance
-![Global Overview](assets/dashboard-overview.png)
+![Global Sales Dashboard](assets/dashboard-global-sales.png)
 
 ### 🔍 Performance Analysis (Deep Dive)
 ![Performance Analysis](assets/deepdive-sales.png)

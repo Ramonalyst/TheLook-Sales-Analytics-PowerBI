@@ -184,7 +184,7 @@ Bitte bei Weiterverwendung die Originalquelle zitieren.
 ## 🙋‍♀️ Author
 
 **@Ramonalyst** – Data Analyst · Power BI Consultant  
-📬 Connect via [LinkedIn](https://www.linkedin.com/)  
+📬 Connect via [LinkedIn]([https://www.linkedin.com/in/ramona-mufic/)
 ⭐ Star dieses Repository, wenn es dir gefällt oder du es nützlich findest!
 
 ---

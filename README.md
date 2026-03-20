@@ -128,13 +128,13 @@ Der Fokus liegt auf einer **eleganten, datenzentrierten Darstellung**, die analy
 ## 🖼️ Screenshots
 
 ### 🌍 Global Sales Performance
-![Global Sales Dashboard](assets/dashboard-global-sales.png)
+![Global Sales Dashboard](eCommerce-PowerBI-dashboard/assets/dashboard-global-sales.png)
 
 ### 🔍 Performance Analysis (Deep Dive)
-![Performance Analysis](assets/deepdive-sales.png)
+![Performance Analysis](eCommerce-PowerBI-dashboard/assets/deepdive-sales.png)
 
 ### 🧾 TopN Products by Revenue & Returns
-![TopN Products](assets/topn-products.png)
+![TopN Products](eCommerce-PowerBI-dashboard/assets/topn-products.png)
 
 ---
 
